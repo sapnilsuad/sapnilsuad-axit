@@ -1,0 +1,441 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background: #000;
+    padding: 10px 0;
+}
+.nav-link{
+    color: #fff;
+    font-size: 14px; 
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 13px; 
+}
+.nav-link:hover{
+    color: #ff8b38;
+    transition: ease-in-out .2s;
+}
+.banner-text{
+    background: url(../img/bg.png);
+    height: 713px;
+    width: 100%; 
+    background-repeat: no-repeat;
+    background-position: top;
+} 
+.banner-text .col-md-7{
+    margin-top: 120px;
+    padding-right: 130px;
+}
+.banner-text .col-md-7 h1{
+    color: #fff;
+    font-family: 'Raleway', sans-serif; 
+    font-size: 36px;
+    margin: 2rem 0;
+}
+.banner-text .col-md-7 p{
+    font-family: 'Raleway', sans-serif; 
+    font-size: 16px;
+    font-weight: 300;
+    color: #fff;
+    padding-right: 20px; 
+    margin: 2rem 0;
+}
+.line{
+    height: 2px;
+    width: 66px;
+    background: #fff;
+}
+.btn-1{
+    background: transparent;
+    border: 2px solid #fff;
+    padding: 12px 32px;
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+.btn-1:focus{
+    outline: none;
+}
+.btn-1:hover{
+    background: #ff8b38;
+    transition: all .3s;
+}
+.banner-text .col-md-4{
+    margin-top: 125px;
+}
+.card-header h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+}
+.card-header span{
+    text-transform: uppercase;
+    color: #ff8b38;
+}
+.card-footer{
+    padding: 1rem 0;
+    background: #ff8b38; 
+    cursor: pointer;
+}
+.submit{
+    color: #fff; 
+    background: #ff8b38;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px; 
+}
+.submit:focus{
+    outline: none;
+}
+.submit,
+.card{
+    border: none;
+}
+.social{
+    margin-top: -3px;
+    box-shadow: 2px 2px 16px #707070;
+}
+.social .col-md-5 h3{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    color: 333333;
+    margin-top: 10px;
+}
+.social .col-md-5 p{
+    padding-right: 60px;
+    font-size: 14px;
+    color: #86878b;
+}
+.social .col-md-7{
+    text-align: right;
+}
+.social ul{
+    list-style: none;  
+}
+.social ul li{
+    display: inline-block;
+    margin-top: 30px;
+    padding: 0 18px;
+}
+.social ul li i:hover{ 
+    color: #ff8b38;
+    transition: ease-in-out .3s; 
+}
+.social ul li i{
+    font-size: 48px;
+    color: #cccccc; 
+    cursor: pointer;
+}
+.form-floating input{
+    border-radius: 0px;
+    border: none; 
+    border-bottom: 1px solid #d6d6d6; 
+    font-family: 'Open Sans', sans-serif;
+    padding: 0 5px;
+}
+.form-floating input:active, 
+.form-floating input:focus{
+    border: 0 !important;
+}
+
+/* feature -1 css code start from here */ 
+
+.tab-section{
+    background: #f5f5f5; 
+    margin-top: 3px;
+}
+.feature-1{
+    padding: 147px 0;  
+}
+.feature-1 ul{
+    list-style: none;
+} 
+.feature-1 ul li, 
+.feature-1 ul li, 
+.feature-1 ul li{
+    width: 105px;
+    height: 110px;
+    background: #333333; 
+    margin-bottom: 2px;
+    text-align: center;
+    padding-top: 40px;
+    cursor: pointer; 
+    color: #fff; 
+}
+.feature-1 ul li a, 
+.feature-1 ul li a, 
+.feature-1 ul li a{ 
+    font-size: 15px;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    
+}
+.tab-1{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;  
+}
+.tab-3{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+} 
+.content-1, .content-2, .content-3{
+    transition: ease-in .5s;
+}
+.content-1 h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 50px;
+}
+.content-1 p:nth-child(1){
+    color: #86878b;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px; 
+}
+.content-2 h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 50px;
+}
+.content-2 p:nth-child(1){
+    color: #86878b;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px; 
+}
+.content-3 h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 50px;
+}
+.content-3 p:nth-child(1){
+    color: #86878b;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px; 
+}
+.btn-2{
+    background: #ff8b38;
+    color: #fff;
+    border: 2px solid #ff8b38;
+    border-radius: 5px;
+    padding: 12px 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 30px;
+}
+.btn-2:hover{
+    background: transparent;
+    color: #333333;
+    transition: all .3s;
+}
+.feature-1 .col-md-4{
+    text-align: center;
+    padding-top: 20px;
+}
+.active-color{
+    background: #ff8b38 !important;  
+    transition: all .5s;
+}
+/* feature -1 css code end from here */ 
+
+
+
+
+
+
+/* feature -2 css code start from here */
+
+.feature-2{
+    width: 100%;
+    padding: 100px 0;
+}
+.image-sec img{
+    margin-top: 50px;
+}
+.line-1{
+    height: 2px;
+    width: 66px;
+    background: #ff8b38;
+    margin: 25px 0; 
+}
+.feature-2 .desc h3{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    color: #212121;
+}
+.feature-2 .desc p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #86878b;
+    margin-bottom: 25px; 
+}
+.feature-2 .desc h6{
+    font-size: 14px;
+    font-weight: 600; 
+    font-family: 'Open Sans', sans-serif;
+    color: #212121;
+    margin-bottom: 14px;
+}
+.feature-2 .desc .top, 
+.feature-2 .desc .bottom{
+    display: flex;
+}
+.feature-2 .desc .top .icon i, 
+.feature-2 .desc .bottom .icon i{
+    cursor: pointer;
+}
+.feature-2 .desc .top .icon i:hover, 
+.feature-2 .desc .bottom .icon i:hover{
+    background: #ff8b38;
+    color: #fff;
+    transition: ease-in-out .3s;
+}
+.feature-2 .desc .top .icon i, 
+.feature-2 .desc .bottom .icon i{
+    color: #ff8b38;
+    font-size: 20px;
+    padding: 10px;
+    border: 2px solid #ff8b38;
+    border-radius: 50%;
+    margin-top: 15px;
+    margin-right: 30px;
+}
+/* feature -2 css code end from here */
+
+
+
+
+
+
+
+
+
+/* feature -3 css code start from here */
+.feature-3{
+    width: 100%;
+    padding: 100px 0;
+    background: #f5f5f5;
+}
+.image-sec img{
+    margin-top: -10px;
+}
+.line-1{
+    height: 2px;
+    width: 66px;
+    background: #ff8b38;
+    margin: 25px 0; 
+}
+.feature-3 .desc{
+    margin-left: 37px;
+    margin-top: 35px;
+}
+.feature-3 .desc h3{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    color: #212121;
+}
+.feature-3 .desc p{
+    font-size: 14px;
+    font-weight: 400; 
+    font-family: 'Open Sans', sans-serif;
+    color: #86878b;
+    margin-bottom: 25px; 
+}
+
+
+/* feature -3 css code end from here */
+
+
+/* Awesome section css code start from here */
+
+
+.line-2{
+    height: 2px;
+    width: 66px;
+    background: #ff8b38;
+    margin: 25px auto;
+}
+.awesome{
+    width: 100%;
+    padding: 100px 0 10px;
+} 
+.awesome .top{
+    text-align: center;
+}
+.awesome .top h1{
+    font-size: 36px;
+    color: #212121;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400; 
+}
+.awesome .top p{
+    font-size: 14px;
+    font-weight: 400; 
+    font-family: 'Open Sans', sans-serif;
+    color: #86878b;  
+}
+.awesome .bottom{
+    text-align: center;
+    padding: 80px 0;
+}
+.awesome .bottom .icon{
+    padding-bottom: 30px; 
+}
+.awesome .bottom .icon i{  
+    font-size: 32px;
+    color: #ff8b38;
+    padding: 10px 17px;
+    border-radius: 50%;
+    border: 2px solid #ff8b38; 
+    cursor: pointer;
+}
+.awesome .bottom .icon i:hover{
+    background: #ff8b38;
+    color: #fff;
+    transition: ease-in-out .3s;
+}
+.awesome .bottom .icon .fa-keyboard-o{
+    padding: 10px !important;
+}
+.awesome .bottom .desc h5{
+    margin-bottom: 30px; 
+    font-size: 20px;
+    font-weight: 700;   
+    font-family: 'Open Sans', sans-serif;
+    color: #333333;   
+}
+.awesome .bottom .desc p{
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    color: #86878b;
+    font-weight: 400;
+}
+
+
+
+
+
+/* Awesome section css code end from here */
+
+
+
+
+
+
+
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif; */
