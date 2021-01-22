@@ -227,7 +227,7 @@
     color: #fff;
     border: 2px solid #ff8b38;
     border-radius: 5px;
-    padding: 12px 30px;
+    padding: 12px 30px; 
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     font-weight: 600;
@@ -336,7 +336,7 @@
     height: 2px;
     width: 66px;
     background: #ff8b38;
-    margin: 25px 0; 
+    margin: 30px 0; 
 }
 .feature-3 .desc{
     margin-left: 37px;
@@ -367,7 +367,7 @@
     height: 2px;
     width: 66px;
     background: #ff8b38;
-    margin: 25px auto;
+    margin: 30px auto;
 }
 .awesome{
     width: 100%;
@@ -425,11 +425,405 @@
     font-weight: 400;
 }
 
-
-
-
-
 /* Awesome section css code end from here */
+
+
+
+/* pricing section css code start from here */
+
+.pricing-section{
+    width: 100%;
+    text-align: center;
+    background: #f5f5f5;
+    padding: 80px 0;
+}
+.pricing-section .row{
+    align-items: flex-end;
+}
+.pricing-section .row .col-md-4:hover{
+     transform: translateY(-15px);
+     transition: all .3s;
+}
+.pricing-section h1{
+    color: #212121;
+    font-size: 36px;
+    font-family: 'Raleway', sans-serif; 
+}
+.pricing-section p{
+    color: #86878b;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif; 
+    margin-bottom: 80px;
+}
+.pricing-section .line-3{
+    height: 2px;
+    width: 66px;
+    background: #ff8b38;
+    margin: 30px auto;
+}
+.price-1{
+    background: #fff; 
+    box-shadow: 2px 4px 16px #707070;
+    width: 90%;
+}
+.price-1 .header{
+    background: #333333; 
+}
+.price-1 .header .title{ 
+    border-bottom: 1px solid #fff;
+    padding: 20px 0;
+}
+.price-1 .header .title h2{
+    color: #fff; 
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 0px !important;
+}
+.price-1 .header .price{
+    padding: 5px 0 18px; 
+    border-bottom: 6px solid #ff8b38;
+}
+.price-1 .header .price span{
+    font-family: 'Merriweather', serif;
+    font-size: 94px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.price-1 .header .price h3{
+    color: #fff;
+    font-size: 36px;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif; 
+}
+.price-1 .header .price h6{
+    margin-bottom: 0px !important;
+    color: #999999;
+    font-style: italic;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 5px;
+    font-weight: 600;
+}
+.price-1 .footer{
+    text-align: center;
+}
+.price-1 .footer ul{ 
+    list-style: none;
+}
+.price-1 .footer ul li{
+    padding: 10px 0;
+    margin-left: -32px;
+    border-bottom: 1px solid #f5f5f5;
+    text-transform: uppercase;
+    color: #86878b;
+    font-weight: 400;
+    font-size: 14px;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Price-2 CSS Code */
+
+.price-2{
+    background: #fff; 
+    box-shadow: 2px 4px 16px #707070;
+    width: 90%;
+}
+.price-2 .header{
+    background: #333333; 
+     
+}
+.price-2 .header .title{ 
+    border-bottom: 1px solid #fff;
+    padding: 20px 0;
+}
+.price-2 .header .title h2{
+    color: #fff; 
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 0px !important;
+}
+.price-2 .header .price{
+    padding: 5px 0 18px;  
+}
+.price-2 .header .price span{
+    font-family: 'Merriweather', serif;
+    font-size: 94px;
+    font-weight: 700;
+    color: #fff;
+}
+.price-2 .special{
+    background: #ff8b38;
+    padding: 12px 0; 
+}
+.price-2 .special h4{
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 0px !important;
+}
+.price-2 .header .price h3{
+    color: #fff;
+    font-size: 36px;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif; 
+}
+.price-2 .header .price h6{
+    margin-bottom: 0px !important;
+    color: #999999;
+    font-style: italic;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 5px;
+    font-weight: 600;
+}
+.price-2 .footer{
+    text-align: center;
+}
+.price-2 .footer ul{ 
+    list-style: none;
+}
+.price-2 .footer ul li{
+    padding: 10px 0;
+    margin-left: -32px;
+    border-bottom: 1px solid #f5f5f5;
+    text-transform: uppercase;
+    color: #86878b;
+    font-weight: 400;
+    font-size: 14px;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+
+/* pricing section css code end from here */
+
+/* testimonial section css code start from here */
+
+.testimonial-section{
+    width: 100%; 
+    padding: 80px 0;
+}
+.testimonial-section .col-md-12{ 
+    text-align: center;
+}
+.testimonial-section .col-md-12 h1{
+    font-size: 36px;
+    color: #212121;
+    font-family: 'Raleway', sans-serif; 
+}
+.testimonial-section .col-md-12 p{
+    font-size: 14px;
+    color: #86878b;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+.testimonial-section .quotos .col-md-4{
+    padding: 0 10px;
+} 
+.testimonial-section .quotos .col-md-4 .top{
+    margin: 0 40px;
+    padding: 10px 20px;  
+    background: #f5f5f5;
+    position: relative; 
+}
+.testimonial-section .quotos .col-md-4 .top p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #86878b; 
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+}
+.testimonial-section .quotos .col-md-4 .shape{
+    background: #f5f5f5;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    margin-top: -17px;
+    margin-left: 55px; 
+    transform: rotate(45deg); 
+}
+.testimonial-section .quotos .col-md-4 .bottom{
+    margin-top: 27px;  
+    padding: 0 40px;
+}
+.testimonial-section .quotos .col-md-4 .bottom .col-md-9{
+    padding-left: 25px;
+    margin-top: 20px;
+}
+.testimonial-section .quotos .col-md-4 .bottom .col-md-9 h3{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    color: #333333;
+}
+
+.testimonial-section .quotos .col-md-4 .bottom .col-md-9 h6{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #86878b;
+}
+
+/* testimonial section css code end from here */
+
+
+
+
+
+/* stylish section css code start from here */
+
+.stylish-section{
+    width: 100%;  
+    margin: 70px 0 100px;
+}
+.stylish-section .background{
+    background: url(../img/bg-2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 320px; 
+} 
+.line-4{
+    height: 2px;
+    width: 66px;
+    background: #fff;
+    margin: 30px auto; 
+}
+.stylish-section .background .content{
+    text-align: center; 
+} 
+.stylish-section .background .content h1{
+    color: #fff;
+    margin-top: 40px;
+    font-size: 36px; 
+    font-family: 'Raleway', sans-serif; 
+}
+.stylish-section .background .content p{
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+}
+.btn-4{
+    background: transparent;
+    border: 2px solid #fff;
+    padding: 12px 32px;
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700; 
+    margin-top: 30px;
+}
+.btn-4:focus{
+    outline: none;
+}
+.btn-4:hover{
+    background: #ff8b38;
+    transition: all .3s; 
+}
+/* stylish section css code end from here */
+
+
+/* contact section css code start from here */
+
+.contact-section{
+    width: 100%;
+}
+.contact-section .cont{
+    text-align: center;
+    margin-bottom: 80px;
+}
+.contact-section .cont h1{
+    font-size: 36px;
+    color: 212121;  
+    font-family: 'Raleway', sans-serif; 
+    text-transform: uppercase;
+}
+.contact-section .cont p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #86878b;
+}
+.contact-section .inputs{
+    padding: 0 90px 70px;
+}
+.contact-section .inputs input{
+    padding: 8px 5px;
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid #d6d6d6;
+}
+.contact-section .inputs input:focus{
+    outline: none;  
+}
+.contact-section .inputs .text{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #d6d6d6;
+}
+
+.contact-section .inputs .text:focus{
+    outline: none;
+}
+
+
+.contact-section .inputs .btn-2{
+    text-align: center;
+    margin: auto;
+    width: 150px; 
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+/* contact section css code end from here */
+
+
+/* footer section css code start from here */
+
+
+footer{
+    width: 100%;
+    text-align: center;
+    background: #000;
+}
+
+footer ul{
+    list-style: none;
+}
+footer ul li{
+    display: inline-block;
+    padding: 0 15px;  
+    margin-top: 15px;
+}
+footer ul li .fa{
+    font-size: 20px;
+    color: #cccccc;
+    margin-top: 10px; 
+}
+footer ul li .fa:hover{
+    color: #ff8b38;
+    cursor: pointer;
+    transition: ease-in-out .3s;
+}
+footer p{
+    color: #fff;
+    font-size: 12px;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+}
+/* footer section css code end from here */
+
+
+
+
+
+
 
 
 
@@ -438,4 +832,6 @@
 
 
 /* font-family: 'Open Sans', sans-serif;
-font-family: 'Raleway', sans-serif; */
+font-family: 'Raleway', sans-serif; 
+font-family: 'Merriweather', serif; 
+*/
