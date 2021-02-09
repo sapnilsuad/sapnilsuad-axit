@@ -1,0 +1,343 @@
+
+
+/* Responsive Code */
+
+    @media (min-width: 1024px) and (max-width: 1424px){ 
+        .feature-1 .img-sec{
+            margin-left: 4rem;   
+        }
+        .social .col-md-5 p{
+            padding-right: 0px;  
+        }
+        ol, ul {
+            padding-left: 0rem;
+        }
+        .social ul li i{
+            font-size: 48px;   
+        }
+        .social ul li { 
+            padding: 0px 8px;   
+            margin-top: 25px;   
+        }
+
+    }
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape) 
+    ##Screen = B/w 481px to 767px
+  */ 
+    
+  @media (min-width: 481px) and (max-width: 1024px) {
+    .banner-text{ 
+        height: 709px;        
+    } 
+    .banner-text .col-md-8 {
+        margin-top: 30px;
+        padding-right: 20px; 
+    }  
+    .banner-text .left{
+        padding-right: 30px;  
+    }
+    .banner-text .right{
+        padding-right: 0px;   
+        padding-left: 0px;    
+    
+    }
+    .banner-text .left h1{ 
+        font-size: 26px;
+    }
+    .banner-text .left p{ 
+        font-size: 14px;
+    }
+    .social .col-md-5 p {
+        padding-right: 0px; 
+    }
+    ol, ul {
+        padding-left: 2rem;
+    }
+    .social ul li { 
+        padding: 0px 8px;   
+        margin-top: 10px;  
+    }
+    .social ul li i{
+        font-size: 30px; 
+       
+    }
+    .social .col-md-7{
+        display: flex;
+        align-items: center;
+    }
+    .feature-1{
+        padding: 70px 0;   
+    } 
+    .content-1, .content-2, .content-3{
+        margin-left: 30px;
+    }
+    .feature-1 .col-md-4 .img-fluid{  
+        display: flex;
+        align-items: center;  
+        margin: auto !important;
+    }
+    .feature-2 .img-fluid{   
+        margin: auto !important; 
+    } 
+    .feature-2 .image-sec{   
+        width: 100%;      
+    }
+    .feature-2 .col-md-5{
+        width: 100%;
+        text-align: center; 
+    } 
+    .feature-2 .col-md-5 .desc{
+        padding: 0 30px; 
+    }
+    .feature-2 .line-1{
+        margin: 20px auto; 
+    }
+    .feature-2 .top {
+        flex-direction: row; 
+    }
+    .image-sec img{
+        display: flex;
+        justify-content: center; 
+    } 
+    .feature-3 .desc{
+        margin-left: 10px;   
+        margin-right: 0px;   
+        margin-top: 35px;
+    }
+    .feature-3 .col-md-5{
+        display: flex;
+        align-items: center; 
+    }
+    .feature-3{
+        padding: 50px 0;
+    }
+    .testimonial-section{ 
+        padding: 50px 0;
+    }
+    .testimonial-section .quotos .col-md-4{ 
+        padding: 0px;
+    } 
+    .testimonial-section .quotos .col-md-4 .bottom .col-md-9{
+        padding-left: 55px; 
+    }
+    .contact-section .inputs{     
+        padding: 0 10px 70px; 
+    } 
+
+
+
+
+
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */ 
+  
+  @media (min-width: 320px) and (max-width: 480px) { 
+    ol, ul {
+        padding-left: 0rem;   
+    }
+    .banner-text{
+        height: 900px;    
+    } 
+    .banner-text .col-md-6 {
+        margin-top: 20px;
+        text-align: center;
+    }
+    .banner-text .left {
+        padding-right: 10px; 
+    }
+    .line{
+        margin: auto; 
+    }
+    .banner-text .col-md-6 h1{
+        font-size: 22px;
+    }
+    .banner-text .col-md-6 p{
+        font-size: 14px;
+    } 
+    .banner-text .right{
+        padding: 20px;
+    }
+    .social ul li i{ 
+        font-size: 22px;   
+    }
+    .social ul{
+        text-align: center; 
+    }
+    .social ul li { 
+        padding: 0px 2px;  
+        margin-top: 10px;  
+    }
+    .social .row{
+        text-align: center; 
+    }
+    .social .col-md-5 p {
+        padding-right: 10px; 
+    }
+    .feature-1{
+        padding: 20px 0;    
+    }
+    .feature-1 .col-md-2{ 
+        text-align: center;
+    }
+    .feature-1 .col-md-2 li{
+        display: inline-block;  
+    }
+    .feature-1 ul li,  
+    .feature-1 ul li, 
+    .feature-1 ul li{ 
+        width: 80px;
+        height: 80px; 
+        padding-top: 30px;
+    } 
+    .tab-1, .tab-2, .tab-3{
+        border-radius: 5px;
+    } 
+    .feature-3 .desc { 
+        margin-left: 10px; 
+        margin-right: 10px;
+        margin-top: 0px;
+        text-align: center; 
+    } 
+    .feature-3 .desc .line-1{ 
+        margin: 20px auto;   
+    }
+
+    .feature-2 .desc p, 
+    .feature-3 .desc p {
+        font-size: 12px;
+        font-weight: 400;
+        font-family: 'Open Sans', sans-serif;
+        color: #86878b;
+        margin-bottom: 25px;
+    }
+    .feature-2, 
+    .feature-3{
+        padding: 50px 0;
+    }
+    .awesome{
+        width: 100%; 
+        padding: 50px 0 10px; 
+    }  
+    .awesome .top h1{
+        font-size: 22px;  
+    }
+    .awesome .top .line-2{
+        margin: 15px auto;
+    }
+    .awesome .top p{
+        font-size: 12px; 
+    }
+    .awesome .bottom{
+        text-align: center;
+        padding: 10px 0 50px; 
+    }
+    .awesome .bottom p{
+        font-size: 12px;  
+    }
+    .pricing-section{
+        width: 100%;
+        text-align: center;
+        background: #f5f5f5;
+        padding: 20px 0;
+    } 
+    .pricing-section .col-sm-12{
+        margin-bottom: 30px;
+    }
+    .pricing-section .row{
+        align-items: flex-end;
+    }
+    .price-1, .price-2, .price-3 {
+        margin: auto;
+        overflow: hidden;
+    }
+    .testimonial-section{ 
+        width: 100%; 
+        padding: 40px 0; 
+    }
+    .testimonial-section .col-md-12 h1{
+        font-size: 36px;
+        color: #212121;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 400; 
+    }
+    .testimonial-section .col-md-12 h1{
+        font-size: 22px;
+    }
+    .testimonial-section .col-md-12 p{
+        font-size: 12px;
+    } 
+    .testimonial-section .col-md-12{
+        padding-bottom: 50px;
+    } 
+    .testimonial-section .quotos{
+        text-align: center; 
+    }
+    .testimonial-section .quotos .col-md-4{
+        margin-bottom: 60px;  
+    }
+    .stylish-section{
+        width: 100%;  
+        margin: 10px 0 50px; 
+    }
+    .line-4{
+        margin: 20px auto;  
+    }
+    .stylish-section .background .content h1{ 
+        color: #fff;
+        margin-top: 40px; 
+        font-size: 28px; 
+        font-family: 'Raleway', sans-serif; 
+        font-weight: 400;
+    }
+    .stylish-section .background .content p{
+        color: #fff;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 200;
+        font-size: 14px;
+    }
+    .contact-section .inputs{   
+        padding: 0px 0px 20px; 
+    }
+    footer ul li{
+        display: inline-block;
+        padding: 0 8px;  
+        margin-top: 15px;  
+    }
+    footer ul li .fa{
+        font-size: 18px;
+        color: #cccccc;
+        margin-top: 10px;  
+    } 
+    .content-1 h2 {
+        text-align: center;
+    }
+
+    }
+
+  @media (min-width: 100px) and (max-width: 319px) {
+    ol, ul {
+        padding-left: 0rem;
+    }
+    
+    
+  }
+
+
+
+
+
+
+
+
+
+
+
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif; 
+font-family: 'Merriweather', serif; 
+*/

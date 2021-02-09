@@ -18,29 +18,38 @@
     transition: ease-in-out .2s;
 }
 .banner-text{
-    background: url(../img/bg.png);
-    height: 713px;
+    background: url(../img/bg.png); 
     width: 100%; 
-    background-repeat: no-repeat;
+    height: 709px;
+    background-repeat: no-repeat; 
     background-position: top;
+    background-size: cover;
 } 
-.banner-text .col-md-7{
+.banner-text .col-md-6{ 
     margin-top: 120px;
-    padding-right: 130px;
+    padding-right: 130px;  
 }
-.banner-text .col-md-7 h1{
+.banner-text .left{
+    padding-right: 30px; 
+}
+.banner-text .right{
+    padding-right: 0px;   
+    padding-left: 100px;    
+
+}
+.banner-text .col-md-6 h1{ 
     color: #fff;
     font-family: 'Raleway', sans-serif; 
     font-size: 36px;
     margin: 2rem 0;
 }
-.banner-text .col-md-7 p{
+.banner-text .col-md-6 p{
     font-family: 'Raleway', sans-serif; 
     font-size: 16px;
     font-weight: 300;
     color: #fff;
     padding-right: 20px; 
-    margin: 2rem 0;
+    margin: 2rem 0; 
 }
 .line{
     height: 2px;
@@ -63,10 +72,13 @@
     background: #ff8b38;
     transition: all .3s;
 }
-.banner-text .col-md-4{
+.banner-text .col-md-6{
     margin-top: 125px;
 }
-.card-header h2{
+.card{
+    width: 100%;  
+}
+.card-header h2{  
     font-family: 'Open Sans', sans-serif;
     font-size: 22px;
     font-weight: 700;
@@ -97,7 +109,7 @@
     margin-top: -3px;
     box-shadow: 2px 2px 16px #707070;
 }
-.social .col-md-5 h3{
+.social .col-md-5 h3{ 
     font-size: 20px;
     font-weight: 700;
     font-family: 'Open Sans', sans-serif;
@@ -105,20 +117,20 @@
     margin-top: 10px;
 }
 .social .col-md-5 p{
-    padding-right: 60px;
+    padding-right: 60px;  
     font-size: 14px;
     color: #86878b;
 }
-.social .col-md-7{
-    text-align: right;
+.social .col-md-7{  
+    text-align: right;  
 }
 .social ul{
     list-style: none;  
 }
 .social ul li{
-    display: inline-block;
+    display: inline-block;  
     margin-top: 30px;
-    padding: 0 18px;
+    padding: 0 18px;  
 }
 .social ul li i:hover{ 
     color: #ff8b38;
@@ -139,26 +151,26 @@
 .form-floating input:active, 
 .form-floating input:focus{
     border: 0 !important;
-}
-
-/* feature -1 css code start from here */ 
+} 
+ 
+/* tab -1 css code start from here */ 
 
 .tab-section{
     background: #f5f5f5; 
     margin-top: 3px;
 }
 .feature-1{
-    padding: 147px 0;  
+    padding: 147px 0;   
 }
 .feature-1 ul{
     list-style: none;
-} 
+}  
+.feature-1 ul li,  
 .feature-1 ul li, 
-.feature-1 ul li, 
-.feature-1 ul li{
+.feature-1 ul li{ 
     width: 105px;
     height: 110px;
-    background: #333333; 
+    background: #333333;  
     margin-bottom: 2px;
     text-align: center;
     padding-top: 40px;
@@ -169,37 +181,37 @@
 .feature-1 ul li a, 
 .feature-1 ul li a{ 
     font-size: 15px;
-    text-decoration: none;
+    text-decoration: none; 
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     text-transform: uppercase;
     
 }
-.tab-1{
+.tab-1{ 
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;  
 }
-.tab-3{
+.tab-3{ 
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 } 
 .content-1, .content-2, .content-3{
-    transition: ease-in .5s;
+    transition: ease-in .5s; 
 }
-.content-1 h2{
+.content-1 h2{ 
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     font-weight: 700;
     color: #000;
     margin-bottom: 50px;
 }
-.content-1 p:nth-child(1){
+.content-1 p:nth-child(1){ 
     color: #86878b;
     font-family: 'Open Sans', sans-serif;
     font-size: 14px; 
 }
 .content-2 h2{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif; 
     font-size: 20px;
     font-weight: 700;
     color: #000;
@@ -210,7 +222,7 @@
     font-family: 'Open Sans', sans-serif;
     font-size: 14px; 
 }
-.content-3 h2{
+.content-3 h2{  
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     font-weight: 700;
@@ -222,7 +234,7 @@
     font-family: 'Open Sans', sans-serif;
     font-size: 14px; 
 }
-.btn-2{
+.btn-2{ 
     background: #ff8b38;
     color: #fff;
     border: 2px solid #ff8b38;
@@ -247,35 +259,35 @@
     background: #ff8b38 !important;  
     transition: all .5s;
 }
-/* feature -1 css code end from here */ 
+/* tab -1 css code end from here */ 
 
 
 
 
 
-
+ 
 /* feature -2 css code start from here */
 
 .feature-2{
     width: 100%;
     padding: 100px 0;
 }
-.image-sec img{
-    margin-top: 50px;
+.image-sec img{ 
+    margin-top: 50px;  
 }
-.line-1{
+.line-1{ 
     height: 2px;
     width: 66px;
     background: #ff8b38;
     margin: 25px 0; 
 }
-.feature-2 .desc h3{
-    font-size: 20px;
+.feature-2 .desc h3{  
+    font-size: 20px; 
     font-weight: 700;
     font-family: 'Open Sans', sans-serif;
     color: #212121;
 }
-.feature-2 .desc p{
+.feature-2 .desc p{  
     font-size: 14px;
     font-weight: 400;
     font-family: 'Open Sans', sans-serif;
@@ -321,25 +333,26 @@
 
 
 
-
+ 
 
 /* feature -3 css code start from here */
 .feature-3{
     width: 100%;
     padding: 100px 0;
-    background: #f5f5f5;
+    background: #f5f5f5; 
 }
 .image-sec img{
-    margin-top: -10px;
+    margin-top: -10px;   
 }
-.line-1{
+.line-1{ 
     height: 2px;
     width: 66px;
-    background: #ff8b38;
+    background: #ff8b38; 
     margin: 30px 0; 
 }
-.feature-3 .desc{
-    margin-left: 37px;
+.feature-3 .desc{ 
+    margin-left: 37px;  
+    margin-right: 190px;   
     margin-top: 35px;
 }
 .feature-3 .desc h3{
@@ -361,28 +374,28 @@
 
 
 /* Awesome section css code start from here */
-
+  
 
 .line-2{
     height: 2px;
     width: 66px;
     background: #ff8b38;
-    margin: 30px auto;
+    margin: 30px auto; 
 }
 .awesome{
-    width: 100%;
-    padding: 100px 0 10px;
+    width: 100%; 
+    padding: 100px 0 10px; 
 } 
-.awesome .top{
+.awesome .top{ 
     text-align: center;
 }
 .awesome .top h1{
-    font-size: 36px;
+    font-size: 36px; 
     color: #212121;
     font-family: 'Raleway', sans-serif;
     font-weight: 400; 
 }
-.awesome .top p{
+.awesome .top p{ 
     font-size: 14px;
     font-weight: 400; 
     font-family: 'Open Sans', sans-serif;
@@ -436,7 +449,7 @@
     text-align: center;
     background: #f5f5f5;
     padding: 80px 0;
-}
+}  
 .pricing-section .row{
     align-items: flex-end;
 }
@@ -447,8 +460,8 @@
 .pricing-section h1{
     color: #212121;
     font-size: 36px;
-    font-family: 'Raleway', sans-serif; 
-    font-weight: 400;
+    font-family: 'Raleway', sans-serif;  
+    font-weight: 400; 
 }
 .pricing-section p{
     color: #86878b;
@@ -601,17 +614,17 @@
 }
 
 
-
+ 
 
 /* pricing section css code end from here */
 
 /* testimonial section css code start from here */
 
-.testimonial-section{
+.testimonial-section{ 
     width: 100%; 
     padding: 80px 0;
 }
-.testimonial-section .col-md-12{ 
+.testimonial-section .col-md-12{  
     text-align: center;
 }
 .testimonial-section .col-md-12 h1{
@@ -625,15 +638,15 @@
     color: #86878b;
     font-weight: 400;
     font-family: 'Open Sans', sans-serif;
-}
-.testimonial-section .quotos .col-md-4{
+} 
+.testimonial-section .quotos .col-md-4{ 
     padding: 0 10px;
 } 
-.testimonial-section .quotos .col-md-4 .top{
-    margin: 0 40px;
-    padding: 10px 20px;  
-    background: #f5f5f5;
-    position: relative; 
+.testimonial-section .quotos .col-md-4 .top{  
+    margin: 0 5px;
+    padding: 10px 20px;   
+    background: #f5f5f5; 
+    position: relative;  
 }
 .testimonial-section .quotos .col-md-4 .top p{
     font-size: 14px;
@@ -648,12 +661,12 @@
     height: 30px;
     position: absolute;
     margin-top: -17px;
-    margin-left: 55px; 
+    margin-left: 55px;  
     transform: rotate(45deg); 
 }
-.testimonial-section .quotos .col-md-4 .bottom{
+.testimonial-section .quotos .col-md-4 .bottom{   
     margin-top: 27px;  
-    padding: 0 40px;
+    padding: 0 10px;   
 }
 .testimonial-section .quotos .col-md-4 .bottom .col-md-9{
     padding-left: 25px;
@@ -702,7 +715,7 @@
 } 
 .stylish-section .background .content h1{
     color: #fff;
-    margin-top: 40px;
+    margin-top: 40px; 
     font-size: 36px; 
     font-family: 'Raleway', sans-serif; 
     font-weight: 400;
@@ -733,8 +746,8 @@
 
 
 /* contact section css code start from here */
-
-.contact-section{
+ 
+.contact-section{ 
     width: 100%;
 }
 .contact-section .cont{
@@ -748,27 +761,27 @@
     text-transform: uppercase;
     font-weight: 400;
 }
-.contact-section .cont p{
+.contact-section .cont p{ 
     font-size: 14px;
     font-weight: 400;
     font-family: 'Open Sans', sans-serif;
     color: #86878b;
+} 
+.contact-section .inputs{   
+    padding: 0 90px 70px; 
 }
-.contact-section .inputs{
-    padding: 0 90px 70px;
-}
-.contact-section .inputs input{
+.contact-section .inputs input{ 
     padding: 8px 5px;
     display: block;
     width: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 10px; 
     border: none;
     border-bottom: 1px solid #d6d6d6;
 }
 .contact-section .inputs input:focus{
     outline: none;  
 }
-.contact-section .inputs .text{
+.contact-section .inputs .text{ 
     width: 100%;
     border: none;
     border-bottom: 1px solid #d6d6d6;
@@ -778,7 +791,7 @@
     outline: none;
 }
 
-
+ 
 .contact-section .inputs .btn-2{
     text-align: center;
     margin: auto;
@@ -791,20 +804,20 @@
 
 /* footer section css code start from here */
 
-
+ 
 footer{
     width: 100%;
     text-align: center;
     background: #000;
 }
-
+ 
 footer ul{
     list-style: none;
 }
 footer ul li{
     display: inline-block;
     padding: 0 15px;  
-    margin-top: 15px;
+    margin-top: 15px; 
 }
 footer ul li .fa{
     font-size: 20px;
@@ -824,7 +837,42 @@ footer p{
 }
 /* footer section css code end from here */
 
+ 
 
+
+
+
+ 
+
+/* Responsive Code */
+
+
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape) 
+    ##Screen = B/w 481px to 767px
+  */ 
+   
+  @media (min-width: 481px) and (max-width: 800px) {
+    .banner-text{
+        height: 1380px; 
+    } 
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+   
+  }
+
+  @media (min-width: 100px) and (max-width: 319px) {
+    
+    
+    
+  }
 
 
 
